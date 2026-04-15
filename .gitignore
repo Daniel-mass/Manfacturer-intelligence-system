@@ -1,0 +1,54 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+.pytest_cache/
+
+# --- Node.js Specific ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- IDE & OS Junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Large Files/Data ---
+*.csv
+*.json
+*.parquet
+*.h5
+*.zip
+*.tar.gz
+*.ipynb
+octotools/
+mlruns/
+processed/
+tests/
+mlartifacts/
+
+# Block EVERYTHING in these folders
+mlruns/
+mlartifacts/
+data/
+models/
+reports/
+venv/
+.venv/
+__pycache__/
+
+# Block all large model and data files specifically
+*.pkl
+*.joblib
+*.parquet
+*.csv
+*.txt
+*.db
